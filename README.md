@@ -8,7 +8,7 @@ And then paste the following command at a terminal, replace the `PROJECT_NAME` a
 
 ```sh
 python3 -c \
-"$(curl -fsSL https://raw.githubusercontent.com/OnurKaral/MADTemplate/master/create-android-kotlin-app.py)" \
+"$(curl -fsSL https://raw.githubusercontent.com/Etiya/etiya_android_architecture_template/main/create-android-kotlin-app.py)" \
 PROJECT_NAME \
 APP_PACKAGE_NAME
 ```
