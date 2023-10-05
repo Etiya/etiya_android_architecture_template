@@ -6,8 +6,8 @@ import androidx.compose.runtime.Stable
 import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
-import com.etiya.template.data.model.BaseEntity
 import com.etiya.template.data.local.dao.AppDao
+import com.etiya.template.data.model.BaseEntity
 import com.etiya.template.data.remote.utils.Constants
 
 @Stable

@@ -4,7 +4,7 @@ import androidx.room.Entity
 import androidx.room.PrimaryKey
 
 @Entity
-data class BaseEntity constructor(
+data class BaseEntity(
     @PrimaryKey
     val id: Int,
 )
