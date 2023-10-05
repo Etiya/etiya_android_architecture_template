@@ -1,4 +1,4 @@
-package com.onrkrl.madtemplate.data.di
+package com.onrkrl.madtemplate.di
 
 
 import android.content.Context
@@ -16,7 +16,6 @@ import javax.inject.Singleton
 @Module
 @InstallIn(SingletonComponent::class)
 class DatabaseModule {
-
     @Singleton
     @Provides
     fun provideAppDao(appDatabase: AppDatabase): AppDao = appDatabase.AppDao()

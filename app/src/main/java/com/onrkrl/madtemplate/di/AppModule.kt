@@ -1,4 +1,4 @@
-package com.onrkrl.madtemplate.data.di
+package com.onrkrl.madtemplate.di
 
 import android.content.Context
 import androidx.compose.runtime.Stable
@@ -14,12 +14,10 @@ import javax.inject.Singleton
 @Module
 @InstallIn(SingletonComponent::class)
 class AppModule {
-
     @Singleton
     @Provides
     fun provideApplication(@ApplicationContext app: Context): TemplateApp {
         return app as TemplateApp
     }
-
 
 }

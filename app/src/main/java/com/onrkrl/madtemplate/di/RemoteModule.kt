@@ -1,4 +1,4 @@
-package com.onrkrl.madtemplate.data.di
+package com.onrkrl.madtemplate.di
 
 import androidx.compose.runtime.Stable
 import com.onrkrl.madtemplate.data.remote.api.CoreAPI

@@ -1,11 +1,9 @@
-package com.onrkrl.madtemplate.data.remote.api
+package com.onrkrl.madtemplate.domain.repository
 
 import com.onrkrl.madtemplate.data.model.request.BaseRequest
 import com.onrkrl.madtemplate.data.model.response.BaseResponse
 import retrofit2.Response
-import retrofit2.http.GET
 
-interface CoreAPI {
-    @GET("template/base")
+interface BaseRepository {
     suspend fun getBaseService(request: BaseRequest): Response<BaseResponse>
 }
