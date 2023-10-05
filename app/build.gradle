@@ -55,7 +55,6 @@ android {
 }
 
 dependencies {
-    implementation project(':core')
     implementation(platform(libs.compose.bom))
     implementation libs.bundles.compose
     implementation libs.navigation.compose
@@ -81,16 +80,6 @@ dependencies {
     kapt libs.hilt.compiler
     kapt libs.hilt.ext.compiler
     implementation libs.hilt.gradlePlugin
-
-
-
-
-
-
-
-
-
-
 
 
 }

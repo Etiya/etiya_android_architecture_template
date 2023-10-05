@@ -1,7 +1,7 @@
 package com.onrkrl.madtemplate.data.local.dao
 
 import androidx.room.*
-import com.onrkrl.core.BaseEntity
+import com.onrkrl.madtemplate.data.model.BaseEntity
 import com.onrkrl.madtemplate.data.remote.utils.Constants
 import kotlinx.coroutines.flow.Flow
 

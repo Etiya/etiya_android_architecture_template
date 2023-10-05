@@ -6,7 +6,7 @@ import androidx.compose.runtime.Stable
 import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
-import com.onrkrl.core.BaseEntity
+import com.onrkrl.madtemplate.data.model.BaseEntity
 import com.onrkrl.madtemplate.data.local.dao.AppDao
 import com.onrkrl.madtemplate.data.remote.utils.Constants
 

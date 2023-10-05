@@ -1,4 +1,4 @@
-package com.onrkrl.core
+package com.onrkrl.madtemplate.data.model
 
 import androidx.room.Entity
 import androidx.room.PrimaryKey
