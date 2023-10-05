@@ -22,7 +22,7 @@ class DatabaseModule {
 
     @Provides
     @Singleton
-    fun provideRickAndMortyDatabase(
+    fun provideDatabase(
         @ApplicationContext context: Context
     ): AppDatabase {
         return AppDatabase.getDatabase(context)
