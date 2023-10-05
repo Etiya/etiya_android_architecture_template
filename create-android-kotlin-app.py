@@ -10,7 +10,7 @@ import re
 import pdb
 
 REPO_URL = 'https://github.com/Etiya/etiya_android_architecture_template'
-ORIGINAL_PACKAGE_NAME = 'com.onrkrl.madtemplate'
+ORIGINAL_PACKAGE_NAME = 'com.etiya.template'
 ZIP_UNIX_SYSTEM = 3
 
 

@@ -9,11 +9,11 @@ plugins {
 }
 
 android {
-    namespace 'com.onrkrl.madtemplate'
+    namespace 'com.etiya.template'
     compileSdk libs.versions.compileSdkVersion.get().toInteger()
 
     defaultConfig {
-        applicationId "com.onrkrl.madtemplate"
+        applicationId "com.etiya.template"
         minSdk libs.versions.minSdkVersion.get().toInteger()
         targetSdk libs.versions.targetSdkVersion.get().toInteger()
         versionCode 1
