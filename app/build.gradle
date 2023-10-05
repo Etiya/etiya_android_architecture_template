@@ -45,7 +45,7 @@ android {
         compose true
     }
     composeOptions {
-        kotlinCompilerExtensionVersion '1.2.0'
+        kotlinCompilerExtensionVersion '1.5.3'
     }
     packagingOptions {
         resources {
@@ -75,11 +75,10 @@ dependencies {
     implementation libs.bundles.network
     implementation libs.bundles.test
 
-    implementation libs.hilt.android
+    implementation libs.hilt.android.v
     implementation libs.hilt.android.testing
     kapt libs.hilt.compiler
     kapt libs.hilt.ext.compiler
     implementation libs.hilt.gradlePlugin
-
 
 }

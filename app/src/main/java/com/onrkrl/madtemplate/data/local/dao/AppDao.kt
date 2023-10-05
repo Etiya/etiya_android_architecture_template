@@ -11,15 +11,15 @@ interface AppDao : BaseDao<BaseEntity> {
     fun getEntity(): Flow<List<BaseEntity>>
 
     @Insert(onConflict = OnConflictStrategy.REPLACE)
-    suspend fun insertEntity(entity: BaseEntity)
+    fun insertEntity(entity: BaseEntity)
 
     @Update(onConflict = OnConflictStrategy.REPLACE)
-    suspend fun updateEntity(entity: BaseEntity)
+    fun updateEntity(entity: BaseEntity)
 
     @Delete
-    suspend fun deleteEntity(entity: BaseEntity)
+    fun deleteEntity(entity: BaseEntity)
 
     @Query("DELETE FROM ${Constants.TABLE_NAME}")
-    suspend fun deleteAll()
+    fun deleteAll()
 
 }
