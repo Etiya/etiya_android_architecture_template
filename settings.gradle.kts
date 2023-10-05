@@ -6,7 +6,6 @@ pluginManagement {
     }
 }
 dependencyResolutionManagement {
-    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
     repositories {
         google()
         mavenCentral()
@@ -17,5 +16,5 @@ dependencyResolutionManagement {
         }
     }
 }
-rootProject.name = "MADTemplate"
-include ':app'
+rootProject.name = "Etiya Android Template"
+include(":app")
