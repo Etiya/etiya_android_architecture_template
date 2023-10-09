@@ -1,4 +1,4 @@
-package com.etiya.template
+package com.etiya.template.presentation.main
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
